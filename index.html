@@ -1,47 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/app.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <!--*section nav -->
         <section class="section_nav">
-          <nav class=" d-lg-flex justify-content-evenly align-items-center ">
-            <div class="logo">
-                <img src="./public/img/logo.png" alt="">
-            </div>
-            <div class="about d-flex justify-content-evenly w-50">
-                <select name="" id="">
-                    <option value="">Home</option>
-                </select>
-                <a href="">Doctos</a>
-                <a href="">Services</a>
-                <select name="" id="">
-                    <option value="">Pages</option>
-                </select>
-                <select name="" id="">
-                    <option value="">Blogs</option>
-                </select>
-                <a href="">Contact Us</a>
-            </div>
-            <div class="book">
-                <button class="">Book Appointment</button>
-            </div>
-          </nav>  
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid px-5">
 
-        </section>
+                    <a class="navbar-brand " href="#">
+                        <img src="./public/img/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!--& part about -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="d-lg-flex justify-content-lg-center w-100 ">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Home
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <!--&  -->
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Doctos</a>
+                                </li>
+                                <!--&  -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <!--&  -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <!--  -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Pages
+                                </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <!--&  -->
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <form class="d-flex" >
+                        <button class="btn">Book Appointment</button>
+                    </form>
+                </div>
+            </nav>
+         </section>
+        </header>
+            <!--^^^^main  -->
+            <main>
+                <!--* section carousel  -->
+                <section class="sectioncarousel">
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active ">
+                        <!--& slide 1  -->
+                        <div class="first-bg-carousel d-flex flex-column align-items-start justify-content-center ">
+                            <h1 class=" px-4 w-50 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                                iure?</h1>
+                            <p class=" px-4 w-50 mx-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique, sit. Eaque nulla
+                                totam, itaque obcaecati iste est, distinctio odio pariatur sit sed enim. Ab facilis
+                                ullam ea sed aspernatur quas?</p>
+                            <div class="buttons d-flex w-25 justify-content-between  px-4 mx-5 ">
+                                <button class="p-3 text-light ">Lorem, ipsum dolor.</button>
+                                <button class="p-3 text-light bg-dark">Lorem, ipsum.</button>
+                            </div>
 
-    </header>
-    <main>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--& slide 2  -->
+                        <div class="second-bg-carousel d-flex flex-column align-items-start justify-content-center ">
+                            <h1 class=" px-4 w-50 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Maxime, iure?</h1>
+                            <p class=" px-4 w-50 mx-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique, sit. Eaque nulla
+                                totam, itaque obcaecati iste est, distinctio odio pariatur sit sed enim. Ab facilis
+                                ullam ea sed aspernatur quas?</p>
+                            <div class="buttons d-flex w-25 justify-content-between  px-4 mx-5">
+                                <button class="p-3 text-light ">Lorem, ipsum dolor.</button>
+                                <button class="p-3 text-light bg-dark ">Lorem, ipsum.</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--& slide 3  -->
+                        <div class="third-bg-carousel d-flex flex-column align-items-start justify-content-center ">
+                            <h1 class=" px-4 w-50 mx-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                                iure?</h1>
+                            <p class=" px-4 w-50 mx-5"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Similique, sit. Eaque nulla
+                                totam, itaque obcaecati iste est, distinctio odio pariatur sit sed enim. Ab facilis
+                                ullam ea sed aspernatur quas?</p>
+                            <div class="buttons d-flex w-25 justify-content-between  px-4 mx-5">
+                                <button class="p-3 text-light ">Lorem, ipsum dolor.</button>
+                                <button class="p-3 text-light bg-dark">Lorem, ipsum.</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+           
+    
+        
 
     </main>
     <footer>
-    
+
     </footer>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
