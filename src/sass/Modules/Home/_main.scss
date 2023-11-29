@@ -141,3 +141,34 @@
     width: 13vw;
     border-bottom: 3px dotted rgb(0, 145, 255);
 }
+//* section3
+.section3{
+    height: 45vh;
+    background-image: url(../../../../public/img/fun-bg.jpg);
+    background-size: cover;
+    color: white;
+} 
+.textsc3{
+    background-color: rgba(0, 145, 255, 0.617);
+    height: 45vh;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.textsc3 i{
+    font-size: xx-large;
+    border: 2px solid white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder
+}
+.textsc3 i:hover{
+    background-color: white;
+    color: rgb(0, 145, 255);
+}
