@@ -12114,4 +12114,22 @@ nav .btn {
   font-size: large;
 }
 
+.section6 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.section6 .starthelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
+}
+
 /*# sourceMappingURL=app.css.map */
