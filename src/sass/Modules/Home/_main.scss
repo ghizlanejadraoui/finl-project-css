@@ -205,4 +205,35 @@
     border-bottom:  3px rgb(0, 145, 255) solid;
     padding-bottom: 7px;
 }
+//* section 5
+.section5{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 3px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(0, 145, 255);
+    color: white;
+}
+.section5 .starthelp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+   
+}
+.section5 button{
+    border: white 2px solid ;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(0, 145, 255);
+    color: rgb(0, 145, 255);
+    font-weight: bold;
+    font-size: large;
+}
 
