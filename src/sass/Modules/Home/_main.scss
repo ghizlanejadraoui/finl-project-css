@@ -172,3 +172,37 @@
     background-color: white;
     color: rgb(0, 145, 255);
 }
+//* section 4 
+.section4{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 3px;
+    text-align: center;
+    padding: 20px;
+}
+.section4 .starthelp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+   
+}
+.starthelp h1{
+    display: inline;
+    width: 90vh;
+}
+.twoplay-list i{
+    color: rgb(0, 145, 255);
+}
+.fa-minus{
+    color: rgb(0, 145, 255);
+    font-size: xx-large;
+}
+.txtvideo span{
+    border-bottom:  3px rgb(0, 145, 255) solid;
+    padding-bottom: 7px;
+}
+
