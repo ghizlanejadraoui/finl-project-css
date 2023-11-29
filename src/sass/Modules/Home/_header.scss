@@ -3,5 +3,26 @@
     padding: 0;
 }
 nav{
-    height: 40vw;
+  
+  height: 10vh;
+  font-weight: bold;
+}
+select{
+    border: none;
+    font-weight: bold;
+   
+}
+a{
+    text-decoration: none; 
+    color: black;
+}
+nav button{
+    outline: none;
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: rgb(0, 145, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
 }
