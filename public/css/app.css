@@ -12147,6 +12147,7 @@ nav .btn {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: aliceblue;
   text-align: center;
   color: black;
 }
@@ -12176,6 +12177,24 @@ nav .btn {
   color: rgb(1, 141, 248);
   font-size: xx-large;
   font-weight: bold;
+}
+
+.section9 {
+  height: 130vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.section9 .starthelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -272,6 +272,7 @@ background-size: cover;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    background-color: aliceblue;
     // gap: 3px;
     text-align: center;
     color: black;
@@ -298,4 +299,22 @@ background-size: cover;
     color: rgb(1, 141, 248);
     font-size: xx-large;
     font-weight: bold;
+}
+//* section 9
+.section9{
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // gap: 3px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+.section9 .starthelp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
 }
