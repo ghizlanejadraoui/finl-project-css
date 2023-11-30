@@ -12211,4 +12211,57 @@ nav .btn {
   justify-content: center;
 }
 
+.section10 img {
+  width: 200px;
+}
+
+.section11 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.section11 .starthelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
+}
+
+.firstform {
+  width: 65rem;
+}
+
+form {
+  width: 34rem;
+}
+
+input {
+  width: 16rem;
+  height: 3rem;
+  border: 2px solid rgba(0, 0, 0, 0.234);
+  border-radius: 3px;
+}
+
+select {
+  width: 16rem;
+  height: 3rem;
+  border: 2px solid rgba(0, 0, 0, 0.234);
+  border-radius: 3px;
+}
+
+textarea {
+  border: 2px solid rgba(0, 0, 0, 0.234);
+  border-radius: 3px;
+}
+
+.section12 {
+  background-color: aliceblue;
+  height: 45vh;
+}
+
 /*# sourceMappingURL=app.css.map */
