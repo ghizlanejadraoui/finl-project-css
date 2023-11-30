@@ -12089,7 +12089,6 @@ nav .btn {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
   color: white;
   background-image: url(../../../../public/img/call-bg.jpg);
   background-attachment: fixed;
@@ -12097,7 +12096,7 @@ nav .btn {
 }
 
 .bgbl {
-  background-color: rgba(0, 145, 255, 0.421);
+  background-color: rgba(0, 145, 255, 0.754);
   height: 60vh;
   width: 100%;
   margin-top: 0;
@@ -12195,6 +12194,21 @@ nav .btn {
   align-items: center;
   justify-content: space-evenly;
   height: 60vh;
+}
+
+.section10 {
+  height: 45vh;
+  background-image: url(../../../../public/img/client-bg.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.textsc10 {
+  background-color: rgba(0, 145, 255, 0.617);
+  height: 45vh;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=app.css.map */
