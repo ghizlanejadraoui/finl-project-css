@@ -12252,6 +12252,7 @@ select {
   height: 3rem;
   border: 2px solid rgba(0, 0, 0, 0.234);
   border-radius: 3px;
+  color: gray;
 }
 
 textarea {
@@ -12262,6 +12263,10 @@ textarea {
 .section12 {
   background-color: aliceblue;
   height: 45vh;
+}
+
+.inputsc12 {
+  width: 20rem;
 }
 
 /*# sourceMappingURL=app.css.map */
