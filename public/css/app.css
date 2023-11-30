@@ -12090,8 +12090,17 @@ nav .btn {
   align-items: center;
   text-align: center;
   padding: 20px;
-  background-color: rgb(0, 145, 255);
   color: white;
+  background-image: url(../../../../public/img/call-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.bgbl {
+  background-color: rgba(0, 145, 255, 0.421);
+  height: 60vh;
+  width: 100%;
+  margin-top: 0;
 }
 
 .section5 .starthelp {
@@ -12130,6 +12139,43 @@ nav .btn {
   align-items: center;
   justify-content: space-evenly;
   height: 60vh;
+}
+
+.section8 {
+  height: 140vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.section8 .starthelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60vh;
+}
+
+.card i {
+  font-size: xx-large;
+}
+
+.card-icon i {
+  font-size: medium;
+}
+
+.card-body {
+  width: 20vw;
+  height: 30vw;
+}
+
+.prix {
+  color: rgb(1, 141, 248);
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=app.css.map */
