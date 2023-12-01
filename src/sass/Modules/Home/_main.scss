@@ -134,6 +134,87 @@
   width: 13vw;
   border-bottom: 3px dotted rgb(0, 145, 255);
 }
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!! Media section2 
+@media (max-width : 430px) {
+  .section2 img {
+    width: 80px;
+    height: 40px;
+  }
+  .section2 {
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    text-align: center;
+  }
+  .section2 .starthelp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 100%;
+  }
+  .starthelp h1 {
+    display: inline;
+    width: 90vh;
+  }
+  .abouthelp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200vh;
+    padding: 0 2vw ;
+    position: relative;
+  }
+  .help {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 3px;
+  }
+  .pharmacy {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    gap: 3px;
+    position: relative;
+  }
+  .treatment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    text-align: center;
+    gap: 3px;
+  }
+  .abouthelp i {
+    border: 1px solid rgba(0, 0, 0, 0.14);
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: rgb(0, 145, 255);
+  }
+  .help::before {
+    visibility: hidden;
+  }
+  .pharmacy::before {
+    visibility: hidden;
+  }}
+  // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! fin Media section2
 //* section3
 .section3 {
   height: 45vh;
@@ -165,6 +246,48 @@
   background-color: white;
   color: rgb(0, 145, 255);
 }
+// !!!!!!!!!!!!!!!!!!!!!!!! Media section 3
+@media (max-width : 430px){
+  .section3 {
+    height: 250vh;
+    background-image: url(../../../../public/img/fun-bg.jpg);
+    background-size: cover;
+    color: white;
+  }
+  .textsc3 {
+    background-color: rgba(0, 145, 255, 0.617);
+    height: 250vh;
+    align-items: center;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+  }
+  .section3 div{
+    gap: 3vw;
+    display: flex;
+    align-items: center;
+  }
+  .textsc3 p{
+    width: 9rem;
+  }
+  .textsc3 i {
+    font-size: xx-large;
+    border: 2px solid white;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+  }
+  
+  .textsc3 i:hover {
+    background-color: white;
+    color: rgb(0, 145, 255);
+  }
+}
+// !!!!!!!!!!!!!!!!! fin Media section 3
+
 //* section 4
 .section4 {
   height: 100vh;
@@ -197,6 +320,41 @@
   border-bottom: 3px rgb(0, 145, 255) solid;
   padding-bottom: 7px;
 }
+// !!!!!!!!!!!!!!!!!!!! Media section 4 
+@media (max-width : 430px){
+  .section4 {
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+  }
+  .section4 iframe{
+    width: 390px;
+    height: 200px;
+  }
+  .section4 .starthelp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+  }
+  .twoplay-list{
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .textetvideo{
+    padding: 0 4vw;
+  }
+  .textetvideo p{
+    display: flex;
+    align-content: center;
+    text-align: start;
+  }
+}
+// !!!!!!!!!!!!!!!!!! Fin media section 4
 //* section 5
 .section5 {
   height: 60vh;
@@ -233,6 +391,48 @@
   font-weight: bold;
   font-size: large;
 }
+// !!!!!!!!!!!!!!! Media section 5
+@media (max-width : 430px){
+//* section 5
+.section5 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-image: url(../../../../public/img/call-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.bgbl {
+  background-color: rgba(0, 145, 255, 0.754);
+  height: 80vh;
+  width: 100%;
+}
+.section5 .starthelp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+
+}
+.section5 button {
+  border: white 2px solid;
+  border-radius: 5px;
+  outline: none;
+  width: 800px;
+  height: 60px;
+  gap: 3px;
+  background-color: rgb(0, 145, 255);
+  color: rgb(0, 145, 255);
+  margin: 0;
+  padding: 0;
+}
+}
+// !!!!!!!!!!!!!!! fin Media section 5
 //* section 6
 .section6 {
   height: 100vh;
@@ -251,7 +451,16 @@
   justify-content: space-evenly;
   height: 60vh;
 }
+// !!!!!!!!!!!!!!! Media section 6
+@media (max-width : 430px){
+}
+// !!!!!!!!!!!!!!! fin Media section 6
 //* section 7 full boptstrap
+// !!!!!!!!!!!!!!! Media section 7
+@media (max-width : 430px){
+}
+// !!!!!!!!!!!!!!! fin Media section 7 
+
 //* section 8
 .section8 {
   height: 140vh;
@@ -287,6 +496,38 @@
   font-size: xx-large;
   font-weight: bold;
 }
+// !!!!!!!!!!!!!!! Media section 8
+@media (max-width : 430px){
+  .section8 {
+    height: 400vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: aliceblue;
+    // gap: 3px;
+    text-align: center;
+    color: black;
+  }
+ .partcard{
+  flex-direction: column;
+  padding: 10px 0;
+  width: 100%;
+ }
+ .partcard .col{
+  width: 450px;
+  height: 450px;
+  justify-content: space-between;
+  padding: 0;
+  
+ }
+ .card-body {
+  width: 80vw;
+  height: 20vw;
+}
+}
+// !!!!!!!!!!!!!!! fin Media section 8
+
 //* section 9
 .section9 {
   height: 130vh;
@@ -305,6 +546,29 @@
   justify-content: space-evenly;
   height: 60vh;
 }
+//!!!!!!!!!!!!!!! Media section 9
+@media (max-width : 430px){
+  .section9 {
+    height: 360vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: black;
+    padding: 0;
+  }
+.cardsc9{
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.cardsc9 p{
+  display: flex;
+  justify-content: start;
+}
+}
+//!!!!!!!!!!!!!!! Fin Media section 9
+
 //*section10
 .section10 {
   height: 45vh;
@@ -318,10 +582,30 @@
   justify-content: space-between;
   align-items: center;
   justify-content: center;
+ 
 }
 .section10 img {
   width: 200px;
 }
+//!!!!!!!!!!!!!!! Media section 10
+@media (max-width : 430px){
+  .section10 {
+    height: 130vh;
+    background-image: url(../../../../public/img/client-bg.jpg);
+    background-size: cover;
+    color: white;
+  }
+  .textsc10 {
+    background-color: rgba(0, 145, 255, 0.617);
+    height: 130vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+   
+  }
+}
+//!!!!!!!!!!!!!!! fin Media section 10
 //* section 11
 .section11 {
   height: 100vh;
@@ -361,6 +645,48 @@ textarea{
     border: 2px solid rgba(0, 0, 0, 0.234);
     border-radius: 3px;
 }
+//!!!!!!!!!!!!!!! Media section 11
+@media (max-width : 430px){
+  .section11 {
+    height: 300vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+  form {
+    width: 24rem;
+    gap: 8px;
+  }
+  input {
+    width: 24rem;
+    height: 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.234);
+    border-radius: 3px;
+  }
+  select {
+    width: 24rem;
+    height: 3rem;
+    border: 2px solid rgba(0, 0, 0, 0.234);
+    border-radius: 3px;
+    color: gray;
+  }
+  textarea{
+      border: 2px solid rgba(0, 0, 0, 0.234);
+      border-radius: 3px;
+      width: 24rem;
+      height: 8rem;
+  }
+  .sc11img img{
+    width: 24rem;
+    align-items: center;
+  }
+}
+//!!!!!!!!!!!!!!! fin Media section 11
+
 //* section 12 
 .section12{
     background-color:aliceblue ;
@@ -369,4 +695,15 @@ textarea{
 .inputsc12{
     width: 20rem;
 }
+//!!!!!!!!!!!!!!! Media section 12
+@media (max-width : 430px){
+  .section12{
+    background-color:aliceblue ;
+    height: 60vh;
+}
+}
+//!!!!!!!!!!!!!!! fin Media section 12
+
+
+
 

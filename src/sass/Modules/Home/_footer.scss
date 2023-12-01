@@ -35,3 +35,20 @@
 .section13 .line:hover::before{
     width: 200px;
 }
+.divlinef{
+
+}
+// !!!!!!!! media footer
+@media (max-width : 430px){
+    .section13{
+        height: 310vh;
+        display: flex;
+        flex-direction: column;
+        
+       }
+       .input-group{
+        width: 350px ;
+        display: flex;
+        
+       }
+    }
