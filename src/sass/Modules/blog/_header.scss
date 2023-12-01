@@ -1,0 +1,56 @@
+.btnblog::placeholder{
+    color: black;
+    
+}
+.search-blog{
+    box-shadow: 3px 5px 6px rgba(128, 128, 128, 0.379);
+}
+//*hover blog
+.blog-categ h3{
+    position: relative;
+}
+.blog-categ h3::before{
+    content: '';
+    position: absolute;
+    border-left: 4px solid rgb(0, 119, 255);
+    height: 39px;
+    width: 30px;
+    top: 0px;
+    right:28vw ;
+    transition: ease-in-out 0.5s;
+}
+
+.blog-categ{
+    box-shadow: 3px 5px 6px rgba(128, 128, 128, 0.79) ;
+    padding:  3rem;
+}
+.div50{
+    padding: 20px;
+    box-shadow: 3px 5px 15px rgba(128, 128, 128, 0.79);
+}
+.Recentpost{
+    height: 70vh;
+    padding: 0 2rem;
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.Recentpost h3{
+    position: relative;
+}
+.Recentpost h3::before{
+    content: '';
+    position: absolute;
+    border-left: 4px solid rgb(0, 119, 255);
+    height: 39px;
+    width: 30px;
+    top: 0px;
+    right:28vw ;
+    transition: ease-in-out 0.5s;
+}
+
+.Recentpost{
+    box-shadow: 3px 5px 6px rgba(128, 128, 128, 0.379) ;
+    padding: 3rem;
+}

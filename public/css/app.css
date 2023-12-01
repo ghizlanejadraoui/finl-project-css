@@ -12621,11 +12621,98 @@ textarea {
   height: 20px;
 }
 
-@media (max-width: 425px) {
+.contact-withus {
+  position: relative;
+}
+
+.contact-withus::before {
+  content: "";
+  position: absolute;
+  border-bottom: 4px solid rgb(40, 117, 249);
+  height: 4px;
+  width: 70px;
+  top: 38px;
+  left: 0;
+  transition: ease-in-out 0.5s;
+}
+
+.contact-withus:hover::before {
+  width: 200px;
+}
+
+@media (max-width: 430px) {
   .sectioncotactus iframe {
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
   }
+  .form-maps input, textarea {
+    width: 350px;
+  }
+  .form-maps .btnformmaps {
+    width: 90px;
+    background-color: aqua;
+  }
+}
+.btnblog::placeholder {
+  color: black;
+}
+
+.search-blog {
+  box-shadow: 3px 5px 6px rgba(128, 128, 128, 0.379);
+}
+
+.blog-categ h3, .blog-categ .h3 {
+  position: relative;
+}
+
+.blog-categ h3::before, .blog-categ .h3::before {
+  content: "";
+  position: absolute;
+  border-left: 4px solid rgb(0, 119, 255);
+  height: 39px;
+  width: 30px;
+  top: 0px;
+  right: 28vw;
+  transition: ease-in-out 0.5s;
+}
+
+.blog-categ {
+  box-shadow: 3px 5px 6px rgba(128, 128, 128, 0.79);
+  padding: 3rem;
+}
+
+.div50 {
+  padding: 20px;
+  box-shadow: 3px 5px 15px rgba(128, 128, 128, 0.79);
+}
+
+.Recentpost {
+  height: 70vh;
+  padding: 0 2rem;
+  justify-content: center;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Recentpost h3, .Recentpost .h3 {
+  position: relative;
+}
+
+.Recentpost h3::before, .Recentpost .h3::before {
+  content: "";
+  position: absolute;
+  border-left: 4px solid rgb(0, 119, 255);
+  height: 39px;
+  width: 30px;
+  top: 0px;
+  right: 28vw;
+  transition: ease-in-out 0.5s;
+}
+
+.Recentpost {
+  box-shadow: 3px 5px 6px rgba(128, 128, 128, 0.379);
+  padding: 3rem;
 }
 
 /*# sourceMappingURL=app.css.map */
