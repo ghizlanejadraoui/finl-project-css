@@ -12715,4 +12715,101 @@ textarea {
   padding: 3rem;
 }
 
+.next-blog i {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  padding: 10px;
+}
+
+.up {
+  position: fixed;
+  bottom: 2vh;
+  right: 2vw;
+  z-index: 10;
+}
+.up .top {
+  height: 100px;
+  width: 100px;
+  bottom: 40px;
+  right: 0px;
+}
+.up .top .scup {
+  font-size: 40px;
+}
+
+@media (max-width: 430px) {
+  .div-parents-blog {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+  }
+  .div50 {
+    width: 100% !important;
+  }
+  .img-sous-p img {
+    width: 270px !important;
+  }
+  .search-blog .input-group {
+    width: 270px !important;
+  }
+  .blog-categ h3, .blog-categ .h3 {
+    position: relative;
+    height: 90vh;
+  }
+  .blog-categ h3::before, .blog-categ .h3::before {
+    content: "";
+    position: absolute;
+    border-left: 4px solid rgb(0, 119, 255);
+    height: 30px;
+    width: 60px;
+    top: 0px;
+    right: 43vw;
+    transition: ease-in-out 0.5s;
+  }
+  .Recentpost {
+    height: 100vh;
+    width: 100% !important;
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .Recentpost img {
+    width: 70px !important;
+    padding: 5px;
+  }
+  .Recentpost h3, .Recentpost .h3 {
+    position: relative;
+  }
+  .Recentpost h3::before, .Recentpost .h3::before {
+    content: "";
+    position: absolute;
+    border-left: 4px solid rgb(0, 119, 255);
+    height: 30px;
+    width: 60px;
+    top: 0px;
+    right: 43vw;
+    transition: ease-in-out 0.5s;
+  }
+  .blog-categ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    height: 70vh;
+  }
+  .ptitp-post h4, .ptitp-post .h4 {
+    font-size: medium;
+  }
+  .ptitp-post p {
+    display: flex;
+  }
+  .next-blog {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
